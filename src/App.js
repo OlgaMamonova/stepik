@@ -1,5 +1,7 @@
+import { Form } from "./components/form";
+
 function App() {
-  return <div className="App">hello from react</div>;
+  return <Form />;
 }
 
 export default App;
