@@ -19,9 +19,11 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="App" style={{ margin: "0 auto", width: "300px" }}>
         <button onClick={this.handlePlusClick}>+</button>
-        <span>{this.state.count}</span>
+        <span style={{ margin: "0 0.75rem", display: "inline-block" }}>
+          {this.state.count}
+        </span>
         <button onClick={this.handleMinusClick}>-</button>
       </div>
     );
