@@ -5,13 +5,23 @@ export default class FormTask extends React.Component {
   constructor() {
     super();
     this.state = {
+      card: "",
       email: "",
       isAgreeWithTerms: false,
     };
+    this.cardRef = React.createRef();
+    this.emailRef = React.createRef();
+  }
+  componentDidMount() {
+    this.cardRef.current.focus();
   }
 
   handleChange = (evt) => {
-    this.setState({ [evt.target.name]: evt.target.value });
+    this.setState({ [evt.target.name]: evt.target.value }, () => {
+      if (this.state.card.length === 16) {
+        this.emailRef.current.focus();
+      }
+    });
   };
 
   handleCheckboxChange = (evt) => {
@@ -42,16 +52,26 @@ export default class FormTask extends React.Component {
 
   render() {
     // TODO: implement component
-    const { email, isAgreeWithTerms } = this.state;
+    const { email, isAgreeWithTerms, card } = this.state;
 
     return (
       <div>
+        <input
+          type="text"
+          name="card"
+          placeholder="card"
+          value={card}
+          onChange={this.handleChange}
+          ref={this.cardRef}
+        />
+        <br />
         <input
           type="email"
           name="email"
           placeholder="email"
           value={email}
           onChange={this.handleChange}
+          ref={this.emailRef}
         />
         <br />
         <label>
