@@ -1,7 +1,7 @@
 function Header() {
   return (
     <nav className="green lighten-1">
-      <div classNameName="nav-wrapper">
+      <div className="nav-wrapper">
         <a href="/" className="brand-logo">
           React Movies
         </a>
