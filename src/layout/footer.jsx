@@ -1,10 +1,10 @@
 function Footer() {
   return (
-    <footer class="page-footer green lighten-4">
-      <div class="footer-copyright">
-        <div class="container">
+    <footer className="page-footer green lighten-4">
+      <div className="footer-copyright">
+        <div className="container">
           © {new Date().getFullYear()} Copyright Text
-          <a class="grey-text text-lighten-4 right" href="#!">
+          <a className="grey-text text-lighten-4 right" href="#!">
             Repo
           </a>
         </div>
