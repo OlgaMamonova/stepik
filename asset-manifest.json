@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/stepik/static/css/main.39caaf63.css",
+    "main.js": "/stepik/static/js/main.c2fa80d2.js",
+    "index.html": "/stepik/index.html",
+    "main.39caaf63.css.map": "/stepik/static/css/main.39caaf63.css.map",
+    "main.c2fa80d2.js.map": "/stepik/static/js/main.c2fa80d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39caaf63.css",
+    "static/js/main.c2fa80d2.js"
+  ]
+}
