@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/stepik/static/css/main.39caaf63.css",
-    "main.js": "/stepik/static/js/main.77eee452.js",
+    "main.js": "/stepik/static/js/main.3a0221d3.js",
     "index.html": "/stepik/index.html",
     "main.39caaf63.css.map": "/stepik/static/css/main.39caaf63.css.map",
-    "main.77eee452.js.map": "/stepik/static/js/main.77eee452.js.map"
+    "main.3a0221d3.js.map": "/stepik/static/js/main.3a0221d3.js.map"
   },
   "entrypoints": [
     "static/css/main.39caaf63.css",
-    "static/js/main.77eee452.js"
+    "static/js/main.3a0221d3.js"
   ]
 }
