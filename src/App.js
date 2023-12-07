@@ -1,5 +1,15 @@
+import { Header } from "./component/Header";
+import { Footer } from "./component/Footer";
+import { Shop } from "./component/Shop";
+
 function App() {
-  return <div className="App">hello from react</div>;
+  return (
+    <>
+      <Header />
+      <Shop />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
